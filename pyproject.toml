@@ -1,0 +1,19 @@
+[project]
+name = "rag-learning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "wenjin", email = "378752389@qq.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.162.0",
+]
+
+[project.scripts]
+rag-learning = "rag_learning:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
